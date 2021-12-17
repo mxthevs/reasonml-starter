@@ -29,3 +29,15 @@ Install the dependencies with esy:
 ```console
 esy
 ```
+
+Build the project:
+
+```console
+esy build
+```
+
+Run the example binary:
+
+```console
+esy x ReasonStarter <dividend> <divisor>
+```
