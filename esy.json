@@ -15,6 +15,7 @@
     "@opam/merlin": "*",
     "@opam/ocaml-lsp-server": "*",
     "@opam/ocamlformat": "*",
-    "@opam/ocamlformat-rpc": "*"
+    "@opam/ocamlformat-rpc": "*",
+    "@opam/utop": "*"
   }
 }
