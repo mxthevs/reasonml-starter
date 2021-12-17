@@ -1,8 +1,6 @@
 open StarterLib;
 
-let usage = "
-USAGE: esy x ReasonStarter <dividend> <divisor>
-";
+let usage = "USAGE: esy x ReasonStarter <dividend> <divisor>";
 
 let () =
   switch (Array.to_list(Sys.argv)) {
@@ -12,7 +10,7 @@ let () =
 
     Math.safe_div(a, b)
     |> Option.fold(
-         ~some=result => Printf.sprintf("Result of division is %.1f", result),
+         ~some=Printf.sprintf("Result of division is %.1f"),
          ~none="Cannot divide by 0",
        )
     |> print_endline;
