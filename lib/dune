@@ -1,2 +1,4 @@
 (library
  (name StarterLib))
+
+(include_subdirs unqualified)
