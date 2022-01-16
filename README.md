@@ -43,3 +43,24 @@ Run the example binary:
 ```console
 esy x ReasonStarter <dividend> <divisor>
 ```
+
+## Using `rtop`
+
+Using the `utop` REPL is a little bit different when using Reason syntax. We have a especial library for that: `rtop`. In this boilerplate you have two ways of accessing the REPL:
+
+```console
+esy x rtop
+```
+
+Or:
+
+```console
+esy utop
+```
+
+Which will bring up the OCaml `utop`, then, inside of it you should be able to use the `#require` directive to get into `rtop` itself:
+
+```console
+utop # #require "rtop";;
+Reason #
+```
